@@ -1,11 +1,13 @@
 #titulo{
     margin-top: 25px;
-    color: black;
+    color:white;
     font-size: 50px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+body {
+    background-color:black;
+}
 .card{
     height: 200px;
     border: 0px;
@@ -30,16 +32,16 @@
 }
 
 a{
-    color: black;
+    color: white;
 }
 
 a:hover{
-    color: black;
+    color: whitesmoke;
 }
 
 button{
     border: 0px;
-    background-color: white;
+    background-color:black;
 }
 
 #bigCard{
