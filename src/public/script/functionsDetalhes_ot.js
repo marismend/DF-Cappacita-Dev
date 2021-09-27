@@ -31,7 +31,7 @@ $(document).ready(function(){
             200:(response)=>{
                 console.log(response);
                 
-                $("#texto").prepend("<span style='font-size: 30px'><b>Título: </b>"+response.result.title+"</span><span style='font-size:20px'></br></br><b>Sinopse:</b> "+response.result.overview+"</br></br><b>Crítica: </b>"+response.result.vote_average+"</span>");
+                $("#texto").prepend("<span style='font-size: 30px;color: white'><b>Título: </b>"+response.result.title+"</span><span style='font-size:20px;color: white'></br></br><b>Sinopse:</b> "+response.result.overview+"</br></br><b>Crítica: </b>"+response.result.vote_average+"</span>");
                 $("#imgPrincipal").attr("src", "https://image.tmdb.org/t/p/w300"+response.result.poster_path);
             
                 
